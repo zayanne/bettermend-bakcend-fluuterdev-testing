@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Bananas",
+    "category": "Fruits",
+    "description": "Organic Cavendish bananas rich in potassium.",
+    "price": 1.99,
+    "discount_price": 1.49,
+    "unit": "1 kg",
+    "in_stock": true,
+    "rating": 4.7,
+    "images": [
+      "https://cdn.quikmart.app/products/bananas1.jpg",
+      "https://cdn.quikmart.app/products/bananas2.jpg"
+    ],
+    "tags": ["organic", "fresh", "fruit"],
+    "vendor": {
+      "id": 101,
+      "name": "Tropical Farm",
+      "location": "Kerala, India"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Whole Wheat Bread",
+    "category": "Bakery",
+    "description": "Soft and healthy bread made with 100% whole wheat flour.",
+    "price": 2.5,
+    "discount_price": null,
+    "unit": "400 g",
+    "in_stock": false,
+    "rating": 4.3,
+    "images": [
+      "https://cdn.quikmart.app/products/bread.jpg"
+    ],
+    "tags": ["bakery", "breakfast"],
+    "vendor": {
+      "id": 102,
+      "name": "Daily Fresh",
+      "location": "Bangalore, India"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Almond Milk - Vanilla",
+    "category": "Dairy Alternatives",
+    "description": "Plant-based almond milk with a hint of vanilla.",
+    "price": 3.99,
+    "discount_price": 3.49,
+    "unit": "1 L",
+    "in_stock": true,
+    "rating": 4.9,
+    "images": [
+      "https://cdn.quikmart.app/products/almond_milk1.jpg",
+      "https://cdn.quikmart.app/products/almond_milk2.jpg"
+    ],
+    "tags": ["vegan", "lactose-free", "beverage"],
+    "vendor": {
+      "id": 103,
+      "name": "Nutty Naturals",
+      "location": "Mumbai, India"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Instant Noodles - Spicy",
+    "category": "Snacks",
+    "description": "Quick meal ready in 2 minutes. Spicy and flavorful.",
+    "price": 0.99,
+    "discount_price": 0.79,
+    "unit": "70 g",
+    "in_stock": true,
+    "rating": 4.1,
+    "images": [
+      "https://cdn.quikmart.app/products/noodles.jpg"
+    ],
+    "tags": ["instant", "quick", "spicy"],
+    "vendor": {
+      "id": 104,
+      "name": "FastBite",
+      "location": "Delhi, India"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Detergent Liquid - Lavender",
+    "category": "Home Care",
+    "description": "Powerful cleaning with a refreshing lavender fragrance.",
+    "price": 4.99,
+    "discount_price": 3.99,
+    "unit": "1 L",
+    "in_stock": true,
+    "rating": 4.5,
+    "images": [
+      "https://cdn.quikmart.app/products/detergent1.jpg",
+      "https://cdn.quikmart.app/products/detergent2.jpg"
+    ],
+    "tags": ["home", "cleaning"],
+    "vendor": {
+      "id": 105,
+      "name": "CleanHome",
+      "location": "Pune, India"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Premium Basmati Rice",
+    "category": "Groceries",
+    "description": "Long grain rice perfect for biryani and pulao.",
+    "price": 12.99,
+    "discount_price": 10.99,
+    "unit": "5 kg",
+    "in_stock": true,
+    "rating": 4.8,
+    "images": [
+      "https://cdn.quikmart.app/products/rice.jpg"
+    ],
+    "tags": ["staple", "grocery"],
+    "vendor": {
+      "id": 106,
+      "name": "Royal Harvest",
+      "location": "Haryana, India"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Fresh Strawberries",
+    "category": "Fruits",
+    "description": null,
+    "price": 2.99,
+    "discount_price": null,
+    "unit": "250 g",
+    "in_stock": false,
+    "rating": 4.6,
+    "images": [],
+    "tags": ["fruit", "seasonal"],
+    "vendor": {
+      "id": 101,
+      "name": "Tropical Farm",
+      "location": "Kerala, India"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Cold Coffee - Mocha",
+    "category": "Beverages",
+    "description": "Ready-to-drink cold coffee with rich mocha flavor.",
+    "price": 1.49,
+    "discount_price": 1.29,
+    "unit": "250 ml",
+    "in_stock": true,
+    "rating": 4.4,
+    "images": [
+      "https://cdn.quikmart.app/products/mocha.jpg"
+    ],
+    "tags": ["coffee", "beverage", "ready-to-drink"],
+    "vendor": {
+      "id": 107,
+      "name": "CoolBeans",
+      "location": "Chennai, India"
+    }
+  }
+]
