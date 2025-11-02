@@ -46,7 +46,7 @@ async function writeJson(filePath, data) {
 }
 
 function generateCartId() {
-  const date = new Date().toISOString().slice(0,10).replace(/-/g,'');
+  const date = new Date().toISOString().slice(0, 10).replace(/-/g, '');
   const rnd = Math.floor(Math.random() * 9000) + 1000;
   return `CART-${date}-${rnd}`;
 }
@@ -56,7 +56,8 @@ function generateCartId() {
  */
 app.get('/products', async (req, res) => {
   try {
-    const products = await readJsonOrEmpty(PRODUCTS_FILE);
+    const limit = parseInt(req.query.limit, 10) || 10;
+    const products = await readJsonOrEmpty(PRODUCTS_FILE).slice(0, limit);
     res.json({ success: true, total: products.length, products });
   } catch (err) {
     console.error('GET /products error:', err);
@@ -141,7 +142,7 @@ app.post('/carts', async (req, res) => {
       created_at: existingIndex >= 0 ? carts[existingIndex].created_at : createdAt,
       updated_at: createdAt,
       expires_at: expiresAt
-    }; 
+    };
 
     if (existingIndex >= 0) {
       carts[existingIndex] = newCart;
