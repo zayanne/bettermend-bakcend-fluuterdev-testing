@@ -10,10 +10,14 @@
     "in_stock": true,
     "rating": 4.7,
     "images": [
-      "https://cdn.quikmart.app/products/bananas1.jpg",
-      "https://cdn.quikmart.app/products/bananas2.jpg"
+      "https://www.bbassets.com/media/uploads/p/l/10000027_32-fresho-banana-robusta.jpg",
+      "https://www.jiomart.com/images/product/original/590000454/banana-robusta-1-kg-product-images-o590000454-p590000454-0-202410011654.jpg"
     ],
-    "tags": ["organic", "fresh", "fruit"],
+    "tags": [
+      "organic",
+      "fresh",
+      "fruit"
+    ],
     "vendor": {
       "id": 101,
       "name": "Tropical Farm",
@@ -31,9 +35,12 @@
     "in_stock": false,
     "rating": 4.3,
     "images": [
-      "https://cdn.quikmart.app/products/bread.jpg"
+      "https://bakerpedia.com/wp-content/uploads/38752431_m.jpg"
     ],
-    "tags": ["bakery", "breakfast"],
+    "tags": [
+      "bakery",
+      "breakfast"
+    ],
     "vendor": {
       "id": 102,
       "name": "Daily Fresh",
@@ -51,10 +58,14 @@
     "in_stock": true,
     "rating": 4.9,
     "images": [
-      "https://cdn.quikmart.app/products/almond_milk1.jpg",
-      "https://cdn.quikmart.app/products/almond_milk2.jpg"
+      "https://m.media-amazon.com/images/I/61mRQX3pPHL._AC_UF350,350_QL80_.jpg",
+      "https://m.media-amazon.com/images/I/615hKJMyzqL._AC_UF350,350_QL80_.jpg"
     ],
-    "tags": ["vegan", "lactose-free", "beverage"],
+    "tags": [
+      "vegan",
+      "lactose-free",
+      "beverage"
+    ],
     "vendor": {
       "id": 103,
       "name": "Nutty Naturals",
@@ -72,9 +83,13 @@
     "in_stock": true,
     "rating": 4.1,
     "images": [
-      "https://cdn.quikmart.app/products/noodles.jpg"
+      "https://cpimg.tistatic.com/10549876/b/5/Veg-Tom-Yum-Hot-Spicy-Noodles-Authentic-Thai-Flavor-Instant-Meal.jpeg"
     ],
-    "tags": ["instant", "quick", "spicy"],
+    "tags": [
+      "instant",
+      "quick",
+      "spicy"
+    ],
     "vendor": {
       "id": 104,
       "name": "FastBite",
@@ -92,10 +107,13 @@
     "in_stock": true,
     "rating": 4.5,
     "images": [
-      "https://cdn.quikmart.app/products/detergent1.jpg",
-      "https://cdn.quikmart.app/products/detergent2.jpg"
+      "https://m.media-amazon.com/images/I/61ERYA5lecL.jpg",
+      "https://rukmini1.flixcart.com/image/500/500/xif0q/shopsy-liquid-detergent/y/x/6/500-laundry-liquid-for-fabric-care-skin-friendly-qssiy-original-imah8nnq7hngbwyh.jpeg"
     ],
-    "tags": ["home", "cleaning"],
+    "tags": [
+      "home",
+      "cleaning"
+    ],
     "vendor": {
       "id": 105,
       "name": "CleanHome",
@@ -113,9 +131,12 @@
     "in_stock": true,
     "rating": 4.8,
     "images": [
-      "https://cdn.quikmart.app/products/rice.jpg"
+      "https://elworldorganic.com/cdn/shop/files/Elworld_Organic_Traditional_Premium_Basmati_Rice-_1_Kg_copy.jpg"
     ],
-    "tags": ["staple", "grocery"],
+    "tags": [
+      "staple",
+      "grocery"
+    ],
     "vendor": {
       "id": 106,
       "name": "Royal Harvest",
@@ -133,7 +154,10 @@
     "in_stock": false,
     "rating": 4.6,
     "images": [],
-    "tags": ["fruit", "seasonal"],
+    "tags": [
+      "fruit",
+      "seasonal"
+    ],
     "vendor": {
       "id": 101,
       "name": "Tropical Farm",
@@ -151,9 +175,205 @@
     "in_stock": true,
     "rating": 4.4,
     "images": [
-      "https://cdn.quikmart.app/products/mocha.jpg"
+      "https://cdn.dotpe.in/longtail/store-items/2210250/nOc9lZJd.png"
     ],
-    "tags": ["coffee", "beverage", "ready-to-drink"],
+    "tags": [
+      "coffee",
+      "beverage",
+      "ready-to-drink"
+    ],
+    "vendor": {
+      "id": 107,
+      "name": "CoolBeans",
+      "location": "Chennai, India"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Green Tea - Classic",
+    "category": "Beverages",
+    "description": "Refreshing and antioxidant-rich classic green tea.",
+    "price": 3.49,
+    "discount_price": 2.99,
+    "unit": "25 tea bags",
+    "in_stock": true,
+    "rating": 4.6,
+    "images": [
+      "https://img.freepik.com/free-photo/spa-still-life-with-natural-elements_23-2148201344.jpg"
+    ],
+    "tags": [
+      "tea",
+      "healthy",
+      "beverage"
+    ],
+    "vendor": {
+      "id": 108,
+      "name": "NatureLeaf",
+      "location": "Assam, India"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Brown Eggs - Free Range",
+    "category": "Dairy & Eggs",
+    "description": "Farm-fresh free range brown eggs, rich in protein.",
+    "price": 3.99,
+    "discount_price": 3.49,
+    "unit": "6 pcs",
+    "in_stock": true,
+    "rating": 4.8,
+    "images": [
+      "https://farmmadefoods.com/cdn/shop/files/6-2_ef74341e-5308-4ff0-a0bf-64cb1ae731f7.png"
+    ],
+    "tags": [
+      "protein",
+      "farm-fresh",
+      "organic"
+    ],
+    "vendor": {
+      "id": 109,
+      "name": "Healthy Hatchery",
+      "location": "Coimbatore, India"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Peanut Butter - Crunchy",
+    "category": "Pantry",
+    "description": "High-protein crunchy peanut butter made from 100% roasted peanuts.",
+    "price": 5.49,
+    "discount_price": 4.99,
+    "unit": "500 g",
+    "in_stock": true,
+    "rating": 4.9,
+    "images": [
+      "https://shop.peepalfarm.org/cdn/shop/files/crunchy-peanut-butter1.jpg"
+    ],
+    "tags": [
+      "protein",
+      "spread",
+      "snack"
+    ],
+    "vendor": {
+      "id": 110,
+      "name": "NutriFoods",
+      "location": "Hyderabad, India"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Dishwash Gel - Lemon",
+    "category": "Home Care",
+    "description": "Removes tough grease and leaves dishes sparkling clean.",
+    "price": 2.99,
+    "discount_price": 2.49,
+    "unit": "500 ml",
+    "in_stock": true,
+    "rating": 4.5,
+    "images": [
+      "https://www.yamiherbals.com/aalam/stock/item/542/image/Lemon%20Dish%20Washer%20Liquid.jpg"
+    ],
+    "tags": [
+      "cleaning",
+      "home",
+      "kitchen"
+    ],
+    "vendor": {
+      "id": 105,
+      "name": "CleanHome",
+      "location": "Pune, India"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Greek Yogurt - Blueberry",
+    "category": "Dairy",
+    "description": "Thick and creamy yogurt blended with real blueberry puree.",
+    "price": 2.49,
+    "discount_price": 1.99,
+    "unit": "150 g",
+    "in_stock": true,
+    "rating": 4.7,
+    "images": [
+      "https://ninetonineyogurts.in/cdn/shop/products/Blueberrywebsite_800x.jpg"
+    ],
+    "tags": [
+      "probiotic",
+      "snack",
+      "dairy"
+    ],
+    "vendor": {
+      "id": 111,
+      "name": "Happy Dairy",
+      "location": "Ahmedabad, India"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Tomato Ketchup - Classic",
+    "category": "Condiments",
+    "description": "Made from ripe tomatoes, perfect for snacks and meals.",
+    "price": 1.99,
+    "discount_price": 1.59,
+    "unit": "500 g",
+    "in_stock": true,
+    "rating": 4.4,
+    "images": [
+      "https://surabhisauces.com/cdn/shop/files/Surabhi_Tomato_Ketchup_Glass_Bottle_200g.jpg"
+    ],
+    "tags": [
+      "sauce",
+      "ketchup",
+      "snack"
+    ],
+    "vendor": {
+      "id": 112,
+      "name": "TasteMakers",
+      "location": "Nagpur, India"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Hand Sanitizer - Aloe Vera",
+    "category": "Personal Care",
+    "description": "Kills 99.9% germs with moisturizing aloe vera extract.",
+    "price": 1.99,
+    "discount_price": 1.49,
+    "unit": "100 ml",
+    "in_stock": true,
+    "rating": 4.6,
+    "images": [
+      "https://erp.flpindia.net/FBO_Documents/ProductImages//328al1.jpg"
+    ],
+    "tags": [
+      "personal-care",
+      "hygiene",
+      "germ-protection"
+    ],
+    "vendor": {
+      "id": 113,
+      "name": "SafeHands",
+      "location": "Noida, India"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Mango Juice - No Added Sugar",
+    "category": "Beverages",
+    "description": "Pure mango juice made from Alphonso mangoes with no added sugar.",
+    "price": 1.99,
+    "discount_price": 1.69,
+    "unit": "1 L",
+    "in_stock": true,
+    "rating": 4.8,
+    "images": [
+      "https://im.pluckk.in/unsafe/1200x0/uploads/32843-1.png"
+    ],
+    "tags": [
+      "juice",
+      "fruit",
+      "beverage"
+    ],
     "vendor": {
       "id": 107,
       "name": "CoolBeans",
