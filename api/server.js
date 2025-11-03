@@ -26,7 +26,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const DATA_DIR = path.join(__dirname, 'data');
+const DATA_DIR = path.join(__dirname, '../data');
 const PRODUCTS_FILE = path.join(DATA_DIR, 'products.json');
 const CARTS_FILE = path.join(DATA_DIR, 'carts.json');
 
@@ -57,7 +57,7 @@ function generateCartId() {
 app.get('/products', async (req, res) => {
   try {
     const limit = parseInt(req.query.limit, 10) || 10;
-    const products = await readJsonOrEmpty(PRODUCTS_FILE).slice(0, limit);
+const products = (await readJsonOrEmpty(PRODUCTS_FILE)).slice(0, limit);
     res.json({ success: true, total: products.length, products });
   } catch (err) {
     console.error('GET /products error:', err);
